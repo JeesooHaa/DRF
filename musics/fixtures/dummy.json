@@ -1,0 +1,55 @@
+[
+{
+  "model": "musics.artist",
+  "pk": 1,
+  "fields": {
+    "name": "Travis"
+  }
+},
+{
+  "model": "musics.artist",
+  "pk": 2,
+  "fields": {
+    "name": "Coldplay"
+  }
+},
+{
+  "model": "musics.artist",
+  "pk": 3,
+  "fields": {
+    "name": "\ubbfc\uc218"
+  }
+},
+{
+  "model": "musics.music",
+  "pk": 1,
+  "fields": {
+    "artist": 1,
+    "title": "Why does it always rain on me?"
+  }
+},
+{
+  "model": "musics.music",
+  "pk": 2,
+  "fields": {
+    "artist": 3,
+    "title": "\ubbfc\uc218\ub294 \ud63c\ub780\uc2a4\ub7fd\ub2e4"
+  }
+},
+{
+  "model": "musics.comment",
+  "pk": 1,
+  "fields": {
+    "music": 1,
+    "content": "!!!"
+  }
+},
+{
+  "model": "musics.comment",
+  "pk": 2,
+  "fields": {
+    "music": 2,
+    "content": "!!!!!"
+  }
+}
+]
