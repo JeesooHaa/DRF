@@ -52,3 +52,11 @@ vuejs!!
 
 get 이 될때마다 post 로 카운트 
 
+
+
+### 19.10.24.
+
+Domain / Endpoint / Query Parameters(추가옵션)
+
+ http://127.0.0.1:8000/api/v1/musics/?artist_pk=3 
+
